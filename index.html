@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unit 4 Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <h1>Crystal Collector!</h1>
+
+    <div class="container">
+        <div class="first-row" >
+            <div class="random-number">
+                <span id="random-number"></span>
+            </div>
+            <div id="game-board">
+                <div class="wins">wins: <span id="wins"></span></div>
+                <div class="looses">losses: <span id="looses"></span></div>
+            </div>
+            
+        </div>
+    
+        <div class="jewels">
+            <button class="emerald"></button>
+            <button class="rubi"></button>
+            <button class="saphire"></button>
+            <button class="jade"></button>
+        </div>
+    
+        <div class="current-score">
+            <h3>your total score is:</h3>
+            <div class="score"> <span id="score"></span> </div>
+        </div>
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./js/game.js"></script>
+</body>
+</html>
